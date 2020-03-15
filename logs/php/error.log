@@ -133,3 +133,4 @@ Stack trace:
 #5 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-config.php(77): requir in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\post.php on line 1405
 [12-Mar-2020 21:07:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\mu-plugins\university_post_types.php on line 13
 [12-Mar-2020 21:07:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\mu-plugins\university_post_types.php on line 13
+[14-Mar-2020 22:43:57 UTC] PHP Parse error:  syntax error, unexpected ''has_archive'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\mu-plugins\university_post_types.php on line 5

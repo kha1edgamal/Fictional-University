@@ -1,6 +1,7 @@
 <?php 
 function university_events(){
     register_post_type('events',array(
+        'supports' => array('title','editor','excerpt'),
         'has_archive' => true,
         'public' => true,
         'labels' => array(
