@@ -134,3 +134,239 @@ Stack trace:
 [12-Mar-2020 21:07:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\mu-plugins\university_post_types.php on line 13
 [12-Mar-2020 21:07:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\mu-plugins\university_post_types.php on line 13
 [14-Mar-2020 22:43:57 UTC] PHP Parse error:  syntax error, unexpected ''has_archive'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\mu-plugins\university_post_types.php on line 5
+[15-Mar-2020 02:14:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Date' not found in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:59
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#3 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 59
+[15-Mar-2020 02:16:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 0 passed in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29 and at least 1 expected in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php:79
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): the_field()
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 79
+[15-Mar-2020 02:16:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 0 passed in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29 and at least 1 expected in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php:79
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): the_field()
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 79
+[15-Mar-2020 02:18:48 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 30
+[15-Mar-2020 02:18:48 UTC] PHP Stack trace:
+[15-Mar-2020 02:18:48 UTC] PHP   1. {main}() C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php:0
+[15-Mar-2020 02:18:48 UTC] PHP   2. require() C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php:17
+[15-Mar-2020 02:18:48 UTC] PHP   3. require_once() C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php:19
+[15-Mar-2020 02:18:48 UTC] PHP   4. include() C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php:98
+[15-Mar-2020 02:19:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DateTime::the_formate() in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:30
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#3 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 30
+[15-Mar-2020 02:25:29 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:25:48 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:26:22 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:26:23 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:26:23 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:26:23 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:26:24 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:27:47 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:27:47 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:27:48 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:27:48 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:27:48 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/03/2020) at position 0 (3): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('31/03/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:28:00 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:28:02 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:28:02 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:28:23 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:30:34 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:30:40 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:32:39 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:32:39 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:32:40 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:32:40 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:32:40 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:32:40 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
+[15-Mar-2020 02:32:40 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/04/2020) at position 0 (2): Unexpected character in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php(29): DateTime->__construct('26/04/2020')
+#1 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\20101\\...')
+#2 C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-blog-header.php(19): require_once('C:\\Users\\20101\\...')
+#3 C:\Users\20101\Local Sites\amazing-colleage\app\public\index.php(17): require('C:\\Users\\20101\\...')
+#4 {main}
+  thrown in C:\Users\20101\Local Sites\amazing-colleage\app\public\wp-content\themes\fractional-university-theme\front-page.php on line 29
